@@ -1,7 +1,14 @@
 import './experience.css'
 
 import React from 'react'
-import {ImCheckmark} from 'react-icons/im'
+import {RiHtml5Line} from 'react-icons/ri'
+import {RiCss3Line} from 'react-icons/ri'
+import {SiJavascript} from 'react-icons/si'
+import {FaReact} from 'react-icons/fa'
+import {FaBootstrap} from 'react-icons/fa'
+import {GrMysql} from 'react-icons/gr'
+import {GrNode} from 'react-icons/gr'
+import {SiExpress} from 'react-icons/si'
 
 const Experience = () => {
   return (
@@ -14,29 +21,29 @@ const Experience = () => {
           <h3>Frontend Skills</h3>
           <div className="experience__content">
             <article className='experience__details'>
-              <ImCheckmark classname='experience__details-icon'/>
+              <RiHtml5Line classname='experience__details-icon'/>
               <div><h4>HTML</h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
-              <ImCheckmark classname='experience__details-icon'/>
+              <RiCss3Line classname='experience__details-icon'/>
               <div><h4>CSS</h4>
               <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
-              <ImCheckmark classname='experience__details-icon'/>
+              <SiJavascript classname='experience__details-icon'/>
               <div><h4>JavaScript</h4>
               <small className='text-light'>Experienced</small></div>
             </article>
             <article className='experience__details'>
-              <ImCheckmark classname='experience__details-icon'/>
+              <FaReact classname='experience__details-icon'/>
               <div><h4>React</h4>
               <small className='text-light'>Basic</small></div>
             </article>
             <article className='experience__details'>
-              <ImCheckmark classname='experience__details-icon'/>
+              <FaBootstrap classname='experience__details-icon'/>
               <div><h4>Bootstrap</h4>
               <small className='text-light'>Experienced</small></div>
             </article>
@@ -47,17 +54,17 @@ const Experience = () => {
         <h3>Backend Skills</h3>
           <div className="experience__content">
             <article className='experience__details'>
-              <ImCheckmark classname='experience__details-icon'/>
+              <GrMysql classname='experience__details-icon'/>
               <div><h4>MySQL</h4>
               <small className='text-light'>Basic</small></div>
             </article>
             <article className='experience__details'>
-              <ImCheckmark classname='experience__details-icon'/>
+              <GrNode classname='experience__details-icon'/>
              <div> <h4>Node.js</h4>
               <small className='text-light'>Basic</small></div>
             </article>
             <article className='experience__details'>
-              <ImCheckmark classname='experience__details-icon'/>
+              <SiExpress classname='experience__details-icon'/>
               <div><h4>Express.js</h4>
               <small className='text-light'>Basic</small></div>
             </article>
