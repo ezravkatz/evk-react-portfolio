@@ -11,10 +11,10 @@
 }
 
 :root {
-  --color-bg: #0c2120;
-  --color-bg-variant: #133432;
-  --color-primary: #dc7a00;
-  --color-primary-variant: #f8bc24;
+  --color-bg: #006a6c;
+  --color-bg-variant: #008386;
+  --color-primary: #ffe463;
+  --color-primary-variant: #ffd858;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -38,7 +38,7 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/background4.jpg);
+  background-image: url(../src/assets/background.png);
 }
 
 /* General styling */
@@ -100,7 +100,7 @@ a:hover {
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
-  transition: var(--transition);
+  transition: 0.3s ease-in-out;
 }
 
 .btn:hover {
@@ -112,6 +112,7 @@ a:hover {
 .btn-primary {
   background: var(--color-primary);
   color: var(--color-bg);
+  transition: 0.3s ease-in-out;
 }
 
 img {
