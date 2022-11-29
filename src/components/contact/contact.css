@@ -49,11 +49,23 @@ textarea {
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
-  background: transparent;
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-white);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
 }
+
+::placeholder {
+  color: var(--color-primary-variant);
+}
+/* 
+.contact-form__blur {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  height: 100%;
+  width: 100%;
+} */
 
 /* media queries for medium devices */
 

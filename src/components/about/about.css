@@ -109,3 +109,11 @@
     margin: 1.5rem 0;
   }
 }
+
+.text__blur {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  height: 8rem;
+  width: 100%;
+  text-align: center;
+}
