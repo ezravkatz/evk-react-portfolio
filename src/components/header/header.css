@@ -4,20 +4,25 @@
   overflow: hidden;
 } */
 
-.header__container {
+.container.header__container {
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  margin-left: auto;
+  margin-top: 10rem;
+  margin-right: auto;
+  left: 0;
+  right: 0;
   text-align: center;
-  height: 100%;
-  position: relative;
 }
 
 /* CTA styling */
 
 .cta {
-  margin-top: 8rem;
+  margin-top: 6rem;
   display: flex;
   gap: 1rem;
-
-  /* justify-content: center; */
+  justify-content: start;
 }
 
 /* Header socials styling */
@@ -46,7 +51,8 @@
   height: 20rem;
   position: absolute;
   right: 5rem;
-  bottom: 25rem;
+  bottom: 20rem;
+
   /* border-radius: 12rem 12rem 0 0; */
   /* padding: 2rem 0.5rem 2rem 3.5rem; */
 }
@@ -60,6 +66,13 @@
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
+}
+
+/* styling typist feature container */
+
+.typist__container {
+  position: relative;
+  margin-top: 4rem;
 }
 
 /* media queries for medium devices */

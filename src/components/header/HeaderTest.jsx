@@ -41,6 +41,8 @@ function Header2() {
                 <Typist.Delay ms={500} />
                 <h2>Content Creator</h2>
                 <Typist.Backspace count={15} delay={500} />
+                <Typist.Delay ms={500} />
+                <h2>Front-End Developer</h2>
               </Typist>{" "}
             </div>
           </Col>
