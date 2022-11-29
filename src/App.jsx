@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./components/header/Header";
+import Header2 from "./components/header/HeaderTest";
 import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
@@ -13,7 +13,7 @@ import Test from "./components/header/test";
 const App = () => {
   return (
     <>
-      <Header />
+      <Header2 />
       <Nav />
       <About />
       <Experience />

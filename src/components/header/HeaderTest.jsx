@@ -1,18 +1,23 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
-import LOGO from "../../assets/logodark5.png";
 import HeaderSocials from "./HeaderSocials";
-import { Container, Row, Col } from "react-bootstrap";
 import Typist from "react-typist";
+import logo from "../../assets/longlogolight.png";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
-const Header1 = () => {
+function Header2() {
   return (
-    <header className="header" id="home">
+    <header>
       <Container>
-        <div className="container header__container">
-          <Row className="align-items-center">
-            <Col xs={12} md={6} xl={4}>
+        <Row>
+          <Col lg={6} md="auto" xs="auto">
+            <CTA />
+          </Col>
+          <Col lg={3} md="auto" xs="auto">
+            <div className="container header__container">
               <Typist>
                 <span className="first__sentence">
                   <h2>Hello, my name is </h2>
@@ -36,24 +41,19 @@ const Header1 = () => {
                 <Typist.Delay ms={500} />
                 <h2>Content Creator</h2>
                 <Typist.Backspace count={15} delay={500} />
-              </Typist>
-              <CTA />
-              <HeaderSocials />
-            </Col>
-            <Col xs={12} md={6} xl={8}>
-              <div className="me">
-                <img src={LOGO} alt="Ezra Katz Header logo" />
-              </div>
-
-              <a href="#contact" className="scroll__down">
-                Scroll Down
-              </a>
-            </Col>
-          </Row>
-        </div>
+              </Typist>{" "}
+            </div>
+          </Col>
+          <Col lg={3} md="auto" xs="auto">
+            <div className="logo">
+              <img src={logo} alt="Ezra Katz Header logo" />
+            </div>{" "}
+            <HeaderSocials />{" "}
+          </Col>
+        </Row>
       </Container>
     </header>
   );
-};
+}
 
-export default Header1;
+export default Header2;
