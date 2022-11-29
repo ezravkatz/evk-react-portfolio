@@ -72,7 +72,7 @@
 
 .about__content p {
   margin: 2rem 0 2.5rem;
-  color: var(--color-light);
+  color: var(--color-primary-variant);
 }
 
 /* media queries for medium devices */

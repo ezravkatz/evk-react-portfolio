@@ -10,11 +10,12 @@ footer a {
   color: var(--color-bg);
 }
 
-.footer__logo {
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 2rem;
-  display: inline-block;
+.footer__img {
+  position: absolute;
+  height: 10%;
+  width: 15%;
+  margin-left: 38rem;
+  margin-top: -1.5rem;
 }
 
 .permalinks {
@@ -22,7 +23,7 @@ footer a {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  margin: 0 auto 3rem;
+  margin: 10rem auto 3rem;
 }
 
 .footer__socials {
