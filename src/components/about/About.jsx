@@ -9,7 +9,7 @@ import { GiDiploma } from "react-icons/gi";
 const About = () => {
   return (
     <section id="about">
-      <h5> Get to Know</h5>
+      <h3> Get to Know</h3>
       <h2>About Me</h2>
 
       <div className="container about__container">
@@ -47,10 +47,11 @@ const About = () => {
           <div className="about__bio">
             <p className="text__blur">
               {" "}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              nobis, voluptate quisquam tenetur magnam libero? Praesentium
-              inventore iusto, enim cumque nobis molestiae quis. Possimus
-              molestias asperiores dolorem! Veniam, quia quae.
+              Front-End Web Developer leveraging a diverse skillset to harness
+              creativity through programming. Earned a certificate in full stack
+              development from the University of Miami. Known for being an
+              enthusiastic team player with a focus on problem-solving. Fluent
+              in Spanish with working proficiency in French and Hebrew.
             </p>
           </div>
 

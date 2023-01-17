@@ -4,6 +4,8 @@
   gap: 2rem;
 }
 
+/* styling container */
+
 .experience__container > div {
   background: var(--color-bg-variant);
   padding: 2.4rem 5rem;
@@ -24,6 +26,16 @@
   margin-bottom: 2rem;
   color: var(--color-primary);
 }
+
+.experience__container > div h5 {
+  font-size: 1.5rem;
+}
+
+.experience__container > div small {
+  font-size: 1rem;
+}
+
+/* styling experience content */
 
 .experience__content {
   display: grid;

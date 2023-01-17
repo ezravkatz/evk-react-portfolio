@@ -22,6 +22,8 @@
   place-items: center;
 }
 
+/* styling about me image */
+
 .about__me-image {
   border-radius: 2rem;
   overflow: hidden;
@@ -33,10 +35,12 @@
   transform: rotate(0);
 }
 
+/* styling cards */
+
 .about__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: 3rem;
 }
 
 .about__card {
@@ -62,17 +66,28 @@
 }
 
 .about__card h5 {
-  font-size: 0.9rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.about__cards small {
-  font-size: 0.7rem;
+.about__cards h4 {
+  font-size: 1.8rem;
   color: var(--color-light);
 }
 
+/* styling about bio with blur */
+
 .about__content p {
-  margin: 2rem 0 2.5rem;
+  margin: 2rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
   color: var(--color-primary-variant);
+  font-weight: 900;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  height: 10rem;
+  width: 100%;
+  text-align: center;
 }
 
 /* media queries for medium devices */
@@ -113,12 +128,4 @@
   .about__content p {
     margin: 1.5rem 0;
   }
-}
-
-.text__blur {
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(8px);
-  height: 8rem;
-  width: 100%;
-  text-align: center;
 }

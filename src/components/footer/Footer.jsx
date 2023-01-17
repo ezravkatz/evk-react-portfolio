@@ -12,7 +12,6 @@ const Footer = () => {
       <div className="footer__img">
         <img src={logo} classname="footer__logo" alt="Ezra Katz Header logo" />
       </div>
-
       <ul className="permalinks">
         <li>
           <a href="#">Home</a>

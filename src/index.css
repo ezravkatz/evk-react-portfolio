@@ -55,15 +55,27 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 900;
+  font-weight: 500;
 }
 
 h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+h4 {
   font-size: 2.5rem;
 }
 
 h5 {
-  font-size: 1rem;
+  font-size: 2.3rem;
 }
 
 section {
@@ -71,7 +83,8 @@ section {
 }
 
 section > h2,
-section > h5 {
+section > h5,
+section > h3 {
   text-align: center;
   color: var(--color-light);
 }
@@ -93,6 +106,8 @@ a {
 a:hover {
   color: var(--color-white);
 }
+
+/* button styling */
 
 .btn {
   width: max-content;
@@ -116,6 +131,8 @@ a:hover {
   color: var(--color-bg);
   transition: 0.3s ease-in-out;
 }
+
+/* image styling */
 
 img {
   display: block;

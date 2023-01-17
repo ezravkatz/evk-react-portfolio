@@ -1,9 +1,13 @@
+/* styling the contact container */
+
 .container.contact__container {
   width: 50%;
   display: grid;
   grid-template-columns: 30% 58%;
   gap: 12%;
 }
+
+/* styling contact options */
 
 .contact__options {
   display: flex;
@@ -18,6 +22,14 @@
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
+}
+
+.contact__option h4 {
+  font-size: 2rem;
+}
+
+.contact__option h5 {
+  font-size: 1rem;
 }
 
 .contact__option:hover {
@@ -60,13 +72,6 @@ textarea {
 ::placeholder {
   color: var(--color-primary-variant);
 }
-/* 
-.contact-form__blur {
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(8px);
-  height: 100%;
-  width: 100%;
-} */
 
 /* media queries for medium devices */
 
