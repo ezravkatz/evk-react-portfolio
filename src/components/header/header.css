@@ -88,4 +88,11 @@
   .scroll__down {
     display: none;
   }
+  .logo {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    right: 0.1rem;
+    bottom: 29rem;
+  }
 }
