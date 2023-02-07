@@ -3,7 +3,6 @@ import "./about.css";
 import ME from "../../assets/me1.jpg";
 import { FaGraduationCap } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
-import { FaAward } from "react-icons/fa";
 import { GiDiploma } from "react-icons/gi";
 
 const About = () => {
@@ -23,26 +22,25 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <GiDiploma className="about__icon" />
-              <h5>Bachelor of Arts</h5>
-              <small>Earned at New College of Florida in Liberal Arts.</small>
+              <b></b>
+              <small>Earned BA at New College of Florida in Liberal Arts</small>
             </article>
             <article className="about__card">
               <FaGraduationCap className="about__icon" />
-              <h5>Further Education</h5>
+              <b></b>
+
               <small>
                 Certificate in Full Stack Development from Univeristy of Miami
               </small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Availability</h5>
-              <small>Freelance, part-time, or full-time work.</small>
+              <b></b>
+
+              <small>
+                Available for freelance, part-time, or full-time work.
+              </small>
             </article>
-            {/* <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Projects</h5>
-              <small>20+ Completed.</small>
-            </article> */}
           </div>
           <div className="about__bio">
             <p className="text__blur">
@@ -54,10 +52,11 @@ const About = () => {
               in Spanish with working proficiency in French and Hebrew.
             </p>
           </div>
-
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
+          <div className="cta__btn">
+            <a href="#contact" className="btn btn-primary">
+              Let's Talk
+            </a>
+          </div>
         </div>
       </div>
     </section>
