@@ -46,10 +46,9 @@ const About = () => {
             <p className="text__blur">
               {" "}
               Front-End Web Developer leveraging a diverse skillset to harness
-              creativity through programming. Earned a certificate in full stack
-              development from the University of Miami. Known for being an
-              enthusiastic team player with a focus on problem-solving. Fluent
-              in Spanish with working proficiency in French and Hebrew.
+              creativity through programming. Known for being an enthusiastic
+              team player with a focus on problem-solving. Fluent in Spanish
+              with working proficiency in French and Hebrew.
             </p>
           </div>
           <div className="cta__btn">
