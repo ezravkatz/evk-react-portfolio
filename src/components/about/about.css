@@ -133,13 +133,13 @@
     justify-content: center;
     gap: 0.5rem;
     right: auto;
-    left: auto;
+    left: 0.5rem;
   }
   .about__content p {
     margin: 1rem 1rem;
     text-align: center;
-    padding: 0.7rem;
-    right: 1.3rem;
+    padding: 1rem;
+    right: 0.8rem;
     font-size: 15px;
   }
 }
