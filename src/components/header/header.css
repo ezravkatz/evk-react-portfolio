@@ -72,20 +72,20 @@
 
   .container.header__container {
     margin-left: 5rem;
-    margin-top: 10rem;
+    margin-top: 5rem;
     max-width: 70%;
   }
 
   .name__container > h1 {
-    font-size: xx-large;
+    font-size: 60px;
   }
 
   .first__sentence > h3 {
-    font-size: large;
+    font-size: 30px;
   }
 
   .shuffle__sentence > h3 {
-    font-size: large;
+    font-size: 30px;
   }
 
   .cta {

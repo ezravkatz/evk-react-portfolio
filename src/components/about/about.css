@@ -132,7 +132,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.5rem;
-    right: 0.8rem;
+    left: 0.8rem;
   }
   .about__content p {
     margin: 1rem 1rem;
