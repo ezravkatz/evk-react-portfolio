@@ -42,15 +42,16 @@
 .about__icon {
   color: var(--color-primary);
   font-size: 1.7rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
   width: 99%;
+  margin-top: -2rem;
 }
 
 .about__cards {
   display: flex;
-  flex-direction: row;
   gap: 3rem;
-  height: 50%;
+  position: relative;
+  bottom: 2rem;
 }
 
 .about__card {
@@ -60,6 +61,7 @@
   padding: 2rem;
   transition: var(--transition);
   align-content: center;
+  flex: 1;
 }
 
 .about__card:hover {
@@ -73,7 +75,7 @@
 
 .about__content p {
   margin: 2rem;
-  padding: 0.5rem;
+  padding: 1.3rem;
   border-radius: 1rem;
   color: var(--color-primary-variant);
   font-weight: 900;
@@ -82,12 +84,16 @@
   height: 10rem;
   width: 100%;
   text-align: center;
+  position: relative;
+  bottom: 2.3rem;
+  right: 3.5rem;
 }
 
 .cta__btn {
+  font-size: x-large;
   position: relative;
   right: 32rem;
-  bottom: 8rem;
+  bottom: 7rem;
 }
 
 /* media queries for medium devices */
