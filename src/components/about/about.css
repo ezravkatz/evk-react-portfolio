@@ -120,7 +120,7 @@
 @media screen and (max-width: 480px) {
   #about {
     position: relative;
-    margin-top: -75rem;
+    margin-top: -55rem;
   }
   .about__me,
   .about__me-image {

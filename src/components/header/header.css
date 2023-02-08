@@ -71,22 +71,31 @@
   }
 
   .container.header__container {
-    position: absolute;
     margin-left: 5rem;
-    margin-top: 8rem;
+    margin-top: 10rem;
     max-width: 70%;
   }
 
-  /* .name__container > h1 {
-    font-size: larger;
-  } */
+  .name__container > h1 {
+    font-size: xx-large;
+  }
+
+  .first__sentence > h3 {
+    font-size: large;
+  }
+
+  .shuffle__sentence > h3 {
+    font-size: large;
+  }
 
   .cta {
-    margin-top: 0.5rem;
     display: flex;
     gap: 1rem;
-    justify-content: flex-start;
+    justify-content: center;
     font-size: x-small;
+    position: relative;
+    top: 25rem;
+    left: 1rem;
   }
 
   .header__socials {
@@ -100,8 +109,8 @@
   .logo {
     width: 10rem;
     height: 10rem;
-    position: relative;
-    margin-left: -7.5rem;
-    margin-top: -4rem;
+    position: absolute;
+    margin-left: -9rem;
+    margin-top: 2rem;
   }
 }
