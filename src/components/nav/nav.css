@@ -32,3 +32,12 @@ nav a.active {
   background: var(--color-primary);
   color: var(--color-bg);
 }
+
+/* media queries for small devices */
+
+@media screen and (max-width: 480px) {
+  nav {
+    margin-bottom: 10rem;
+    margin-left: auto;
+  }
+}

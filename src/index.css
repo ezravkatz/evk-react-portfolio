@@ -151,7 +151,10 @@ img {
 
 /* media queries for small devices */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
+  #root {
+    overflow-x: hidden;
+  }
   .container {
     width: var(--container-width-sm);
   }

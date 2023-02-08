@@ -117,26 +117,25 @@
 
 /* media queries for small devices */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
+  #about {
+    position: relative;
+    margin-top: -75rem;
+  }
   .about__me,
-  .about__me-image,
-  .about__card:hover {
+  .about__me-image {
     display: none;
   }
 
   .about__cards {
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 0.5rem;
+    right: 0.8rem;
   }
-
-  .about__content {
-    text-align: center;
-  }
-
   .about__content p {
     margin: 1rem 0;
     text-align: center;
     padding: 0.7rem;
-    left: 0.5rem;
+    right: 0.8rem;
   }
 }

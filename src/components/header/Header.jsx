@@ -18,29 +18,33 @@ function Header() {
           </Col>
           <Col lg={3} md="auto" xs="auto">
             <div className="container header__container">
-              <Typist>
-                <span className="first__sentence">
-                  <h3>Hello, my name is </h3>
-                </span>
-                <Typist.Delay ms={500} />
-                <div className="name__container">
-                  <h1> Ezra Katz </h1>
-                </div>
-                <Typist.Delay ms={500} />
-                <h3>Front-End Developer</h3>
-                <Typist.Backspace count={19} delay={500} />
-                <Typist.Delay ms={500} />
-                <h3>UI/UX Designer</h3>
-                <Typist.Backspace count={14} delay={500} />
-                <Typist.Delay ms={500} />
-                <h3>Web Developer</h3>
-                <Typist.Backspace count={13} delay={500} />
-                <Typist.Delay ms={500} />
-                <h3>Copywriter</h3>
-                <Typist.Backspace count={10} delay={500} />
-                <Typist.Delay ms={500} />
-                <h3>Front-End Developer</h3>
-              </Typist>{" "}
+              <div className="typist__container">
+                <Typist>
+                  <span className="first__sentence">
+                    <h3>Hello, my name is </h3>
+                  </span>
+                  <Typist.Delay ms={500} />
+                  <div className="name__container">
+                    <h1> Ezra Katz </h1>
+                  </div>
+                  <div className="shuffle__sentence">
+                    <Typist.Delay ms={500} />
+                    <h3>Front-End Developer</h3>
+                    <Typist.Backspace count={19} delay={500} />
+                    <Typist.Delay ms={500} />
+                    <h3>UI/UX Designer</h3>
+                    <Typist.Backspace count={14} delay={500} />
+                    <Typist.Delay ms={500} />
+                    <h3>Web Developer</h3>
+                    <Typist.Backspace count={13} delay={500} />
+                    <Typist.Delay ms={500} />
+                    <h3>Copywriter</h3>
+                    <Typist.Backspace count={10} delay={500} />
+                    <Typist.Delay ms={500} />
+                    <h3>Front-End Developer</h3>
+                  </div>
+                </Typist>{" "}
+              </div>
             </div>
           </Col>
           <Col lg={3} md="auto" xs="auto">
