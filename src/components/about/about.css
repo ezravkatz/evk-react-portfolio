@@ -52,6 +52,7 @@
   gap: 3rem;
   position: relative;
   bottom: 2rem;
+  font-weight: 100;
 }
 
 .about__card {
@@ -78,7 +79,7 @@
   padding: 1.3rem;
   border-radius: 1rem;
   color: var(--color-primary-variant);
-  font-weight: 900;
+  font-weight: 200;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(8px);
   height: 10rem;
@@ -106,20 +107,21 @@
 
   .about__me {
     width: 50%;
-    margin: 2rem auto 4rem;
+    margin: 6rem 14rem 0rem;
   }
 
   .about__content p {
-    margin: 1rem 0 1.5rem;
+    margin: 2rem 3rem 1.5rem;
   }
 }
 
 /* media queries for small devices */
 
 @media screen and (max-width: 600px) {
-  .about__me {
-    width: 65%;
-    margin: 0 auto 3rem;
+  .about__me,
+  .about__me-image,
+  .about__card:hover {
+    display: none;
   }
 
   .about__cards {
@@ -132,6 +134,9 @@
   }
 
   .about__content p {
-    margin: 1.5rem 0;
+    margin: 1rem 0;
+    text-align: center;
+    padding: 0.7rem;
+    left: 0.5rem;
   }
 }

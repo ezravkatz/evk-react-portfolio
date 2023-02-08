@@ -21,35 +21,35 @@ const Experience = () => {
           <h3>Frontend Skills</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <RiHtml5Line classname="experience__details-icon" />
+              <RiHtml5Line className="experience__details-icon" />
               <div>
                 <h5>HTML</h5>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <RiCss3Line classname="experience__details-icon" />
+              <RiCss3Line className="experience__details-icon" />
               <div>
                 <h5>CSS</h5>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
-              <SiJavascript classname="experience__details-icon" />
+              <SiJavascript className="experience__details-icon" />
               <div>
                 <h5>JavaScript</h5>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <FaReact classname="experience__details-icon" />
+              <FaReact className="experience__details-icon" />
               <div>
                 <h5>React</h5>
                 <small className="text-light">Basic</small>
               </div>
             </article>
             <article className="experience__details">
-              <FaBootstrap classname="experience__details-icon" />
+              <FaBootstrap className="experience__details-icon" />
               <div>
                 <h5>Bootstrap</h5>
                 <small className="text-light">Experienced</small>
@@ -61,14 +61,14 @@ const Experience = () => {
           <h3>Backend Skills</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <GrMysql classname="experience__details-icon" />
+              <GrMysql className="experience__details-icon" />
               <div>
                 <h5>MySQL</h5>
                 <small className="text-light">Basic</small>
               </div>
             </article>
             <article className="experience__details">
-              <GrNode classname="experience__details-icon" />
+              <GrNode className="experience__details-icon" />
               <div>
                 {" "}
                 <h5>Node.js</h5>
@@ -76,7 +76,7 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience__details">
-              <SiExpress classname="experience__details-icon" />
+              <SiExpress className="experience__details-icon" />
               <div>
                 <h5>Express.js</h5>
                 <small className="text-light">Basic</small>

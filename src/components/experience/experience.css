@@ -45,12 +45,14 @@
 
 .experience__details {
   display: flex;
-  gap: 1rem;
+  gap: 0.7rem;
 }
 
 .experience__details-icon {
-  margin-top: 6px;
+  height: 2.3rem;
   color: var(--color-primary);
+  font-size: 1.3rem;
+  font-weight: 400;
 }
 
 /* media queries for medium devices */
