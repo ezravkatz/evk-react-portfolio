@@ -1,10 +1,12 @@
 /* styling the contact container */
 
 .container.contact__container {
-  width: 50%;
+  width: 70%;
   display: grid;
   grid-template-columns: 30% 58%;
-  gap: 12%;
+  gap: 7%;
+  position: relative;
+  bottom: 2rem;
 }
 
 /* styling contact options */
@@ -22,6 +24,9 @@
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
+  position: relative;
+  right: 10rem;
+  bottom: 8rem;
 }
 
 .contact__option h4 {
@@ -71,6 +76,10 @@ textarea {
 
 ::placeholder {
   color: var(--color-primary-variant);
+}
+
+#contact__btn {
+  font-size: xx-large;
 }
 
 /* media queries for medium devices */
