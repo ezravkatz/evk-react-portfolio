@@ -20,6 +20,14 @@
   font-size: large;
 }
 
+/* greeting animation style */
+
+.greeting {
+  position: relative;
+  top: 15rem;
+  left: 12rem;
+}
+
 /* Header socials styling */
 
 .header__socials {
@@ -68,6 +76,11 @@
 @media screen and (max-width: 480px) {
   header {
     height: 240vh;
+    display: flex;
+    flex: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
   }
 
   .container.header__container {
@@ -76,16 +89,11 @@
     max-width: 70%;
   }
 
-  .name__container > h1 {
-    font-size: 60px;
-  }
-
-  .first__sentence > h3 {
-    font-size: 25px;
-  }
-
-  .shuffle__sentence > h3 {
-    font-size: 25px;
+  .greeting {
+    position: absolute;
+    margin-left: -7rem;
+    margin-top: 1rem;
+    max-width: 50%;
   }
 
   .cta {
@@ -95,7 +103,7 @@
     font-size: x-small;
     position: relative;
     top: 25rem;
-    left: 1rem;
+    right: 3.3rem;
   }
 
   .header__socials {
@@ -110,7 +118,7 @@
     width: 12rem;
     height: 12rem;
     position: absolute;
-    margin-left: -10rem;
+    margin-left: -18rem;
     margin-top: 2rem;
   }
 }

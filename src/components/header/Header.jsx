@@ -2,11 +2,11 @@ import React from "react";
 import "./header.css";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
-import Typist from "react-typist";
 import logo from "../../assets/logolight5.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Greeting from "./Greeting";
 
 function Header() {
   return (
@@ -17,41 +17,13 @@ function Header() {
             <CTA />
           </Col>
           <Col lg={3} md="auto" xs="auto">
-            <div className="container header__container">
-              <div className="typist__container">
-                <Typist>
-                  <span className="first__sentence">
-                    <h3>Hello, my name is </h3>
-                  </span>
-                  <Typist.Delay ms={500} />
-                  <div className="name__container">
-                    <h1> Ezra Katz </h1>
-                  </div>
-                  <div className="shuffle__sentence">
-                    <Typist.Delay ms={500} />
-                    <h3>Front-End Developer</h3>
-                    <Typist.Backspace count={19} delay={500} />
-                    <Typist.Delay ms={500} />
-                    <h3>UI/UX Designer</h3>
-                    <Typist.Backspace count={14} delay={500} />
-                    <Typist.Delay ms={500} />
-                    <h3>Web Developer</h3>
-                    <Typist.Backspace count={13} delay={500} />
-                    <Typist.Delay ms={500} />
-                    <h3>Copywriter</h3>
-                    <Typist.Backspace count={10} delay={500} />
-                    <Typist.Delay ms={500} />
-                    <h3>Front-End Developer</h3>
-                  </div>
-                </Typist>{" "}
-              </div>
-            </div>
+            <Greeting />
           </Col>
           <Col lg={3} md="auto" xs="auto">
             <div className="logo">
               <img src={logo} alt="Ezra Katz Header logo" />
-            </div>{" "}
-            <HeaderSocials />{" "}
+            </div>
+            <HeaderSocials />
           </Col>
         </Row>
       </Container>
