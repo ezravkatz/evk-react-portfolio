@@ -1,3 +1,7 @@
+#about {
+  margin-top: 25rem;
+}
+
 .about__container {
   display: grid;
   grid-template-columns: 35% 50%;
@@ -14,9 +18,13 @@
     var(--color-primary),
     transparent
   );
-  display: grid;
+  position: relative;
+  bottom: 7.5rem;
+  right: 5.5rem;
   place-items: center;
 }
+
+/* styling about me image */
 
 .about__me-image {
   border-radius: 2rem;
@@ -29,10 +37,22 @@
   transform: rotate(0);
 }
 
+/* styling cards */
+
+.about__icon {
+  color: var(--color-primary);
+  font-size: 1.7rem;
+  margin-bottom: 0.3rem;
+  width: 99%;
+  margin-top: -2rem;
+}
+
 .about__cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  display: flex;
+  gap: 3rem;
+  position: relative;
+  bottom: 2rem;
+  font-weight: 100;
 }
 
 .about__card {
@@ -40,34 +60,41 @@
   border: 1px solid transparent;
   border-radius: 1rem;
   padding: 2rem;
-  text-align: center;
   transition: var(--transition);
+  align-content: center;
+  flex: 1;
 }
 
 .about__card:hover {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
   border-color: var(--color-primary-variant);
   cursor: default;
 }
 
-.about__icon {
-  color: var(--color-primary);
-  font-size: 1.4rem;
-  margin-bottom: 1rem;
-}
-
-.about__card h5 {
-  font-size: 0.9rem;
-}
-
-.about__cards small {
-  font-size: 0.7rem;
-  color: var(--color-light);
-}
+/* styling about bio with blur */
 
 .about__content p {
-  margin: 2rem 0 2.5rem;
-  color: var(--color-light);
+  margin: 2rem;
+  padding: 1.3rem;
+  border-radius: 1rem;
+  color: var(--color-primary-variant);
+  font-weight: 200;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  height: 10rem;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 2.3rem;
+  right: 3.5rem;
+}
+
+.cta__btn {
+  font-size: x-large;
+  position: relative;
+  right: 32rem;
+  bottom: 7rem;
 }
 
 /* media queries for medium devices */
@@ -80,32 +107,39 @@
 
   .about__me {
     width: 50%;
-    margin: 2rem auto 4rem;
+    margin: 6rem 14rem 0rem;
   }
 
   .about__content p {
-    margin: 1rem 0 1.5rem;
+    margin: 2rem 3rem 1.5rem;
   }
 }
 
 /* media queries for small devices */
 
-@media screen and (max-width: 600px) {
-  .about__me {
-    width: 65%;
-    margin: 0 auto 3rem;
+@media screen and (max-width: 480px) {
+  #about {
+    position: relative;
+    margin-top: -55rem;
+  }
+  .about__me,
+  .about__me-image {
+    display: none;
   }
 
   .about__cards {
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    right: auto;
+    left: 0.8rem;
   }
-
-  .about__content {
-    text-align: center;
-  }
-
   .about__content p {
-    margin: 1.5rem 0;
+    margin: 1rem 1rem;
+    text-align: center;
+    padding: 0.4rem;
+    right: 0.6rem;
+    font-size: 15px;
   }
 }

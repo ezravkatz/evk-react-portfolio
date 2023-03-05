@@ -1,8 +1,12 @@
+/*styling the portfolio container */
+
 .portfolio__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
 }
+
+/* styling the portfolio items */
 
 .portfolio__item {
   background: var(--color-bg-variant);
@@ -12,10 +16,17 @@
   transition: var(--transition);
 }
 
+.portfolio__item h3 {
+  font-size: 1.7rem;
+}
+
 .portfolio__item:hover {
   border-color: var(--color-primary-variant);
-  background: transparent;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
 }
+
+/* styling the portfolio images */
 
 .portfolio__item-image {
   border-radius: 1.5rem;

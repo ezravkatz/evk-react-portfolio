@@ -4,6 +4,8 @@
   gap: 2rem;
 }
 
+/* styling container */
+
 .experience__container > div {
   background: var(--color-bg-variant);
   padding: 2.4rem 5rem;
@@ -13,7 +15,8 @@
 }
 
 .experience__container > div:hover {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
   border-color: var(--color-primary-variant);
   cursor: default;
 }
@@ -24,6 +27,16 @@
   color: var(--color-primary);
 }
 
+.experience__container > div h5 {
+  font-size: 1.5rem;
+}
+
+.experience__container > div small {
+  font-size: 1rem;
+}
+
+/* styling experience content */
+
 .experience__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -32,12 +45,14 @@
 
 .experience__details {
   display: flex;
-  gap: 1rem;
+  gap: 0.7rem;
 }
 
 .experience__details-icon {
-  margin-top: 6px;
+  height: 2.3rem;
   color: var(--color-primary);
+  font-size: 1.3rem;
+  font-weight: 400;
 }
 
 /* media queries for medium devices */
