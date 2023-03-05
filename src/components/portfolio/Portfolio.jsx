@@ -2,6 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import IMG from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/portfolio2.png";
+import IMG3 from "../../assets/portfolio3.png";
 
 const data = [
   {
@@ -18,34 +19,13 @@ const data = [
     github: "https://github.com/ezravkatz/tip-calculator",
     demo: "https://heartfelt-sawine-579cf1.netlify.app",
   },
-  // {
-  //   id: 3,
-  //   image: IMG3,
-  //   title: 'Fluffy and Puffy Full Stack Website',
-  //   github: 'https://github.com/rodolfopoly/fluffyandpuffy',
-  //   demo: 'https://peaceful-dusk-99479.herokuapp.com/'
-  // },
-  // {
-  //   id: 4,
-  //   image: IMG4,
-  //   title: 'Daar-Ul Gharib Website',
-  //   github: 'https://github.com/ezravkatz/daar-ul-gharib-website',
-  //   demo: 'daarulgharib.org'
-  // },
-  // {
-  //   id: 5,
-  //   image: IMG,
-  //   title: 'Fluffy and Puffy Full Stack Website',
-  //   github: 'https://github.com/rodolfopoly/fluffyandpuffy',
-  //   demo: 'https://peaceful-dusk-99479.herokuapp.com/'
-  // },
-  // {
-  //   id: 6,
-  //   image: IMG,
-  //   title: 'Fluffy and Puffy Full Stack Website',
-  //   github: 'https://github.com/rodolfopoly/fluffyandpuffy',
-  //   demo: 'https://peaceful-dusk-99479.herokuapp.com/'
-  // },
+  {
+    id: 3,
+    image: IMG3,
+    title: "Tic Tac Toe",
+    github: "https://github.com/ezravkatz/tictactoe",
+    demo: "https://lively-fudge-0231b6.netlify.app/",
+  },
 ];
 
 const Portfolio = () => {
